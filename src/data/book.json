@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable, and scalable code.",
+    "price": 35.99,
+    "category": "Programming",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "An easy and proven way to build good habits and break bad ones through small daily improvements.",
+    "price": 24.99,
+    "category": "Self Development",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51-uspgqWIL.jpg"
+  },
+  {
+    "id": "3",
+    "title": "You Don't Know JS Yet",
+    "author": "Kyle Simpson",
+    "description": "A deep dive into JavaScript fundamentals, exploring scopes, closures, and async behavior.",
+    "price": 29.99,
+    "category": "Programming",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81kqrwS1nNL.jpg"
+  },
+    {
+    "id": "4",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable, and scalable code.",
+    "price": 35.99,
+    "category": "Programming",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L.jpg"
+  }
+]
