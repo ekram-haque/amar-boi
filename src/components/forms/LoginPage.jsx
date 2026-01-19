@@ -11,8 +11,8 @@ export default function LoginPage() {
   const [error, setError] = useState("");
 
   // hardcoded credentials
-  const MOCK_EMAIL = "example@email.com";
-  const MOCK_PASSWORD = "123456";
+  const MOCK_EMAIL = "bookWorm@gmail.com";
+  const MOCK_PASSWORD = "BookWorm11@";
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,6 +22,7 @@ export default function LoginPage() {
       document.cookie = "auth=true; path=/";
 
       // redirect after login
+      router.refresh(); 
       router.push("/");
     } else {
       setError("Invalid email or password");

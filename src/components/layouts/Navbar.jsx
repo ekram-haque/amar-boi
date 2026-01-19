@@ -2,14 +2,16 @@
 
 import NavLink from "../buttons/NavLink";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
+  const pathname = usePathname();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
     setIsLoggedIn(document.cookie.includes("auth=true"));
-  }, []);
+  }, [pathname]);
 
   const handleLogout = () => {
     // remove cookie
