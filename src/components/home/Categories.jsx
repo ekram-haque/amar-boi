@@ -10,7 +10,7 @@ const Categories = () => {
             (cat) => (
               <span
                 key={cat}
-                className="px-5 py-2 border rounded-full text-gray-700 bg-white hover:text-white hover:bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
+                className="px-5 py-2 border rounded-lg text-black bg-accent  hover:bg-secondary hover:text-primary"
               >
                 {cat}
               </span>

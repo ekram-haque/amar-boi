@@ -1,19 +1,17 @@
-import Image from "next/image";
+import book from "@/data/book.json";
 import Link from "next/link";
-import books from "@/data/book.json";
+import Image from "next/image";
 
-const FeatureBooks = () => {
+export default function ItemsPage() {
   return (
-    <section className="py-20">
-      <div className="w-11/12  mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-12">Featured Books</h2>
+    <div className="w-11/12  mx-auto py-12">
+      <h1 className="text-3xl font-bold mb-8">All Books</h1>
+      <div className="grid md:grid-cols-4 gap-6">
+        {book.map(item => {
+          const { id, title, author, description, price, image } = item;
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {books.slice(0, 4).map((book) => {
-            const { id, title, author, description, price, image } = book;
-
-            return (
-              <div
+          return (
+            <div
                 key={id}
                 className="card bg-secondary shadow-md hover:shadow-xl transition duration-300"
               >
@@ -47,12 +45,9 @@ const FeatureBooks = () => {
                   </div>
                 </div>
               </div>
-            );
-          })}
-        </div>
+          );
+        })}
       </div>
-    </section>
+    </div>
   );
-};
-
-export default FeatureBooks;
+}

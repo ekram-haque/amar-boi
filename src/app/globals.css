@@ -7,9 +7,9 @@
   name: "light";
   default: true;
   --color-primary: #D6B87A;
-  --color-secondary: #E8CFA3 ;
-  /* --color-accent: #D6B87A ; */
-  --color-neutral: #3B2F2F ;
+  --color-secondary: #3B2F2F;
+  --color-accent:  #E8CFA3 ;
+  --color-neutral: #F5E1C0 ;
    
 }
 @custom-variant dark (&:where([data-theme=night], [data-theme=night] *));

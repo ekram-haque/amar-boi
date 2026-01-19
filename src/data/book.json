@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "title": "Clean Code",
     "author": "Robert C. Martin",
     "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable, and scalable code.",
@@ -9,7 +9,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L.jpg"
   },
   {
-    "id": "2",
+    "id": 2,
     "title": "Atomic Habits",
     "author": "James Clear",
     "description": "An easy and proven way to build good habits and break bad ones through small daily improvements.",
@@ -18,7 +18,7 @@
     "image": "https://images-na.ssl-images-amazon.com/images/I/51-uspgqWIL.jpg"
   },
   {
-    "id": "3",
+    "id": 3,
     "title": "You Don't Know JS Yet",
     "author": "Kyle Simpson",
     "description": "A deep dive into JavaScript fundamentals, exploring scopes, closures, and async behavior.",
@@ -26,13 +26,67 @@
     "category": "Programming",
     "image": "https://images-na.ssl-images-amazon.com/images/I/81kqrwS1nNL.jpg"
   },
-    {
-    "id": "4",
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "description": "A handbook of agile software craftsmanship that teaches how to write clean, maintainable, and scalable code.",
-    "price": 35.99,
+  {
+    "id": 4,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "description": "Essential tips and best practices for modern software developers.",
+    "price": 39.99,
     "category": "Programming",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/41jEbK-jG+L.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51A1r0F5ZGL.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "description": "Rules for focused success in a distracted world.",
+    "price": 26.99,
+    "category": "Self Development",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Design Patterns",
+    "author": "Erich Gamma et al.",
+    "description": "Elements of reusable object-oriented software.",
+    "price": 45.99,
+    "category": "Programming",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51kuc0iWoML.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "description": "A modern introduction to JavaScript programming.",
+    "price": 27.99,
+    "category": "Programming",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51Y5NI-I5jL.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "description": "An exploration of how the human mind makes decisions.",
+    "price": 22.99,
+    "category": "Psychology",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41wR0B1V9GL.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "description": "What the rich teach their kids about money that the poor do not.",
+    "price": 19.99,
+    "category": "Finance",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51AHZGhzZEL.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "description": "Timeless lessons on wealth, greed, and happiness.",
+    "price": 21.99,
+    "category": "Finance",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41Yv0x8KZlL.jpg"
   }
 ]

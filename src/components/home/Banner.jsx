@@ -3,12 +3,12 @@ import React from 'react';
 
 const banner = () => {
     return (
-<section className=" bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white py-24">
+<section className=" bg-gradient-to-r from-[#2d1f1f] to-[#3a2a2a] text-white py-24 rounded-lg mt-10">
         <div className="w-11/12 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Discover & Manage <br />
-              <span className="text-yellow-300">Your Favorite Books</span>
+              <span className="text-primary">Your Favorite Books</span>
             </h1>
             <p className="text-white/90 mb-8 max-w-xl">
               ItemHub is a simple book listing platform built with Next.js where
@@ -17,13 +17,13 @@ const banner = () => {
             <div className="flex gap-4">
               <Link
                 href="/items"
-                className="bg-white text-gray-900 px-6 py-3 rounded-md font-medium"
+                className="bg-accent text-gray-900 px-6 py-3 rounded-md font-medium"
               >
                 Browse Books
               </Link>
               <Link
                 href="/login"
-                className="border border-white px-6 py-3 rounded-md font-medium"
+                className="border border-accent px-6 py-3 rounded-md font-medium"
               >
                 Admin Login
               </Link>
