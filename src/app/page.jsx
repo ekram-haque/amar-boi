@@ -10,13 +10,13 @@ import CTA from "@/components/home/CTA";
 export default function Home() {
   return (
     <div className="">
-      <section className="mb-24"> <Banner /></section>
-      <section className="mb-24"><FeatureBooks/></section>
-      <section className="mb-24"><Feature/></section>
-      <section className="mb-24"><Categories/></section>
-      <section className="mb-24"><HowWorks/></section>
-      <section className="mb-24"><Testimonials/></section>
-      <section className="mb-24"><CTA/></section>
+      <section className="mb-10"> <Banner /></section>
+      <section className="mb-10"><FeatureBooks/></section>
+      <section className="mb-10"><Feature/></section>
+      <section className="mb-10"><Categories/></section>
+      <section className="mb-10"><HowWorks/></section>
+      <section className="mb-10"><Testimonials/></section>
+      <section className="mb-10"><CTA/></section>
     </div>
   );
 }

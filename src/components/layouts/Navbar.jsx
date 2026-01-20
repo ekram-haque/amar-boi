@@ -46,7 +46,7 @@ const Navbar = () => {
               {nav}
             </ul>
           </div>
-          <Link href={'/'} className="text-xl font-semibold">
+          <Link href={'/'} className="text-xl text-neutral font-semibold">
             Book <span className="text-primary">Worm</span>
           </Link>
         </div>
